@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  margin: 0;
+  overflow-x: hidden !important;
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: center;
+  align-items: left;
+  height: 100vh;
+  background: #7968dc;
+}
+
+.nav-pills .nav-link {
+  background: 0 0;
+  border: 0;
+  border-radius: 0.25rem;
+  color: white;
+  padding: 20px 15px;
+  transition: all linear 0.3s;
+}
+
+.nav-pills .nav-link:hover {
+  background: rgb(82, 63, 191);
+  color: white;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #7968dc !important;
+}
+
+
+.form-control {
+  padding: 9px !important;
+  border-radius: 25px !important;
+}
+
+.btn-primary {
+  color: #fff !important;
+  background-color: #7968dc !important;
+  border-color: #7968dc !important;
+  width: 48% !important;
+  border-radius: 25px !important;
+}
+
+.activity_details{
+  align-items: centers !important;
+}
+
+
+.table {
+  border-collapse: separate;
+  --bs-table-bg: transparent !important;
+  --bs-table-accent-bg: rgba(0, 0, 0, 0.1) !important;
+  --bs-table-striped-color: #fff !important;
+  --bs-table-striped-bg: #7968dc !important;
+  --bs-table-active-color: #212529 !important;
+  --bs-table-hover-bg: rgba(0, 0, 0, 0.075) !important;
+  color: #212529 !important;
+  vertical-align: top !important;
+}
+
+th,td{
+  text-align: center !important;
+  border: 4px solid #fff !important;
+}
