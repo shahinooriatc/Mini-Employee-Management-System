@@ -2,10 +2,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Activity from "./Components/Activity";
 import DailyClass from "./Components/DailyClass";
 import EmployList from "./Components/EmployList";
+import Notfound from "./Components/Notfound.js";
 import Navbar from "./Components/Navbar";
-import Home from "./Pages/Home";
 import { Row, Col } from "react-bootstrap";
-import Notfound from "./Pages/Notfound.js";
 
 function App() {
   return (
